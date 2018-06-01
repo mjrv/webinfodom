@@ -1,0 +1,539 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css');
+/*==========  Pour les Ecrans Large  ==========*/
+
+/* -- Déclaration de Styles Pratique --*/
+.r-m {
+    margin: 0 !important;
+}
+
+.r-p {
+    padding: 0 !important;
+}
+
+.relative {
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+.m-t-40 {
+    margin-top:40px;
+}
+
+section {
+    
+    background: url(../img/maintenance.jpg) no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #6d4947;
+    background-blend-mode: multiply;
+    /*object-fit: cover;*/
+    /*text-align: center;*/
+}
+
+
+
+/* -------------------------------------
+            LA NAVIGATION hors index.php
+-------------------------------------- */
+
+
+nav {
+    /*position: absolute !important;*/
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+    background-color: fff;
+    border-radius: 2px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 25px;
+    text-decoration: none;
+    color: #E7A017;
+}
+
+nav ul li a {
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:#2475dc;
+    text-decoration: none;
+}
+
+nav ul li a.blink {
+  text-decoration: blink;
+}
+
+
+
+/* -------------------------------------
+            fin LA NAVIGATION hors index.php
+-------------------------------------- */
+body, html {
+ height: 100%;
+ width: 100%;
+ padding: 0 0;
+ margin: 0 0;
+
+}
+/*----------------------------------------------
+        section article message d'accueil  hors index.php    
+-----------------------------------------------*/
+h1 {
+    color: #2475dc;
+    text-align: center;
+    font-weight: bold;
+}
+
+article {
+
+}
+
+
+article h1 {
+    color: #2475dc;
+    text-align: center;
+    font-weight: bold;
+}
+
+article h1 span{
+    color: #2475dc;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    /*font-family: 'Pinyon Script', cursive;*/
+    
+}
+
+article h2 {
+    color: #2475dc;
+    text-align: left;
+    padding-left: 50px;
+}
+
+article h2 a {
+    color: #2475dc;
+    text-align: left;
+    /*padding-left: 10px;*/
+}
+
+article h3 {
+    color: #2475dc;
+    text-align: center;
+}
+
+article p {
+    /*color: #E7A017;*/
+    color: #FFF;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 75px;}
+
+article ul {
+
+padding-left: 100px;
+}
+
+article ul li {
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    color:  #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 20px;
+    padding-left: 20px;
+    /*font-family: 'Herr Von Muellerhoff', cursive;*/
+    
+}
+
+/*----------------------------------------------
+        fin section article message d'accueil  hors index.php    
+-----------------------------------------------*/
+
+/*navbar*/
+
+.bg-dark {
+    background-color: rgba(52,58,64,0.4)!important;
+}
+
+/*icon webinfodom*/
+.navbar-brand img {
+    max-width: 100%;
+    max-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -9px;
+    /*margin-bottom: 50px;*/
+    /*padding-bottom: 10px;*/
+}
+
+#navbars ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+#navbars ul li a:hover {
+    color:#2475dc;
+    text-decoration: none;
+
+}
+
+/*end navbar*/
+
+/*slider*/
+.img-fluid {
+
+    max-height: 650px;
+    width: 100%;
+  }
+
+
+/*end slider*/
+
+/*card*/
+
+.card img {
+    height: 350px;
+}
+
+.card-block {
+    height: 205px;
+}
+
+/*end card*/
+
+/*partenaire*/
+
+#carouselLogo {
+    /*background-color: white !important;*/
+}
+
+.list-inline{
+    background-color: white;
+    border-image: 1px;
+    border-image: 10px;
+    border-color: #000;
+
+}
+
+.list-inline img{
+    height: 100px;
+    width: 150px;
+    border-image: 10px;
+    border-color: #000;
+    
+}
+
+#slide2 ul li span{
+    background-color: rgba(12,12,12,0.7);
+    border-radius: 5px;
+}
+
+.carousel-item {
+s
+    background-color:#fff;
+    background-blend-mode: multiply;
+}
+
+.carousel-item ul{
+     border-image: 10px;
+    border-color: #000;
+    border-right: 2px;
+    list-style-type: none;
+}
+
+.carousel-item ul li{
+     border-image: 10px;
+    border-color: #000;
+    border-right: 2px;
+    font-size: 16px;
+    text-decoration: none;
+    text-decoration-line: none;
+
+}
+
+.carousel-item ul li img{
+    border-radius: 10px;
+    border-image: 10px;
+    border-color: #000;
+    border-right: 2px;
+    text-align: center;
+}
+
+/*end partenaire*/
+
+/*footer links*/
+
+/* -------------------------------------
+            PIED DE PAGE
+-------------------------------------- */
+
+
+footer {
+    padding: 10px 0;
+    background: #6885a9;
+    /*background-color: #110e4f;*/
+}
+
+footer p {
+    color: #000;
+    margin: 0;
+    text-align: center;
+}
+
+footer h4{
+    color: #000;
+    text-align: center;
+}
+
+footer h4 span {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+} 
+
+footer span a:hover {
+     color:#2475dc;
+    text-decoration: none;
+}
+
+footer span a {
+    color: #000;
+}
+
+
+/*==========  Contact formulaire  ==========*/
+
+#contact h3 {
+    text-align: center;
+    font-size: 50px;
+    color: #2475dc;
+}
+
+/*end footer link*/
+
+/*blink*/
+
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0;color: #2475dc; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0;color: #2475dc; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { color: #2475dc;opacity: 1.0;}
+}
+
+/*end blink*/
+
+
+ /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+        .carousel-item ul li{
+            border-image: 10px;
+            border-color: #000;
+            border-right: 2px;
+            font-size: 14px;
+            text-decoration: none;
+            text-decoration-line: none;
+            text-align: center;
+             /*display: none;*/
+    }
+        .mintext{
+            display: none;
+        }
+        
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        .carousel-item ul li{
+            border-image: 10px;
+            border-color: #000;
+            border-right: 2px;
+            font-size: 12px;
+            text-decoration: none;
+            text-decoration-line: none;
+            text-align: center;
+             /*display: none;*/
+    }
+        .mintext{
+            display: none;
+        }
+        #slide1 h2{
+            font-size: 20px;
+        }    
+        #slide1 h3{
+            font-size: 20px;
+        }
+        #slide1 p{
+            font-size: 14px;
+        }  
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .carousel-item ul li{
+            border-image: 10px;
+            border-color: #000;
+            border-right: 2px;
+            font-size: 10px;
+            text-decoration: none;
+            text-decoration-line: none;
+            text-align: center;
+             /*display: none;*/
+    }
+        .mintext{
+            display: none;
+        }
+
+        .mtext{
+            display: none;
+        }
+
+        #slide1 h2{
+            font-size: 14px;
+        }    
+        #slide1 h3{
+            font-size: 12px;
+        }
+        #slide1 p{
+            font-size: 10px;
+        }
+
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+   .carousel-item ul li{
+     border-image: 10px;
+    border-color: #000;
+    border-right: 2px;
+    font-size: 9px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-align: center;
+     /*display: none;*/
+    }
+
+    .carousel-item ul li img{
+    border-radius: 10px;
+    border-image: 10px;
+    border-color: #000;
+    border-right: 2px;
+    text-align: center;
+}
+
+
+    #slide1 p{
+        font-size:9px;
+    }
+
+    .carousel-item h3{
+    font-size: 16px;
+    }
+
+    .carousel-item h2{
+    font-size:18px;
+    }
+  
+
+
+    .product-caption-details{
+
+        display:none;
+    }
+    #slide1 h2{
+        display: none;
+    }
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+    .carousel-item ul{
+        text-align: center;
+    }
+
+    .carousel-item ul li{
+     border-image: 10px;
+    border-color: #000;
+    border-right: 2px;
+    font-size: 10px;
+    text-decoration: none;
+    text-decoration-line: none;
+    }
+        .mintext{
+            display: none;
+        }
+
+        .mtext{
+            display: none;
+        }
+        .mitext {
+            display: none;
+        }
+
+        #slide1 h2{
+            display: none;
+        }    
+        #slide1 h3{
+            display: none;
+        }
+        #slide1 p{
+            font-size: 10px;
+        }
+        .product-caption-details{
+
+        display:none;
+        }
+   /* body{
+
+        width: auto;
+    }*/
+  
+   
+    }
